@@ -1,0 +1,8 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=95380620_002D82b9_002D4cfe_002D858c_002D8fea507a59df/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Generate_ReturnsCodeOfLength7" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::1DF62B2B-1C7B-4688-BF2F-525FDA0C58B8::net9.0::UrlShortener.Tests.ShortCodeGeneratorTests.Generate_ReturnsCodeOfLength7&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::1DF62B2B-1C7B-4688-BF2F-525FDA0C58B8::net9.0::UrlShortener.Tests.UrlShortenerServiceTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::1DF62B2B-1C7B-4688-BF2F-525FDA0C58B8::net9.0::UrlShortener.Tests.ShortCodeGeneratorTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

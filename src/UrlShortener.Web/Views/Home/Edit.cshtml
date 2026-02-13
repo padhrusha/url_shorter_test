@@ -1,0 +1,34 @@
+﻿@model UrlShortener.Web.Models.EditUrlViewModel
+
+@{
+    ViewData["Title"] = "Edit URL";
+}
+
+<h1 class="mb-4">Изменить URL</h1>
+
+<div class="card" style="max-width: 700px;">
+    <div class="card-body">
+        <form asp-action="Edit" method="post">
+            <input type="hidden" asp-for="Id" />
+            <input type="hidden" asp-for="ShortCode" />
+
+            <div class="mb-3">
+                <label class="form-label">Сокращенный Code</label>
+                <input type="text" class="form-control" value="@Model.ShortCode" disabled />
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="OriginalUrl" class="form-label">Длинный URL</label>
+                <input type="url" class="form-control" asp-for="OriginalUrl" />
+                <span asp-validation-for="OriginalUrl" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Сохранить</button>
+            <a asp-action="Index" class="btn btn-secondary">Отмена</a>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
